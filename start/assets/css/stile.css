@@ -67,6 +67,18 @@ section h2 {
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
+#badge {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 1.5em;
+    padding: 0.5em;
+    border: 10px solid  rgba(234,0,241,1) 50%, rgba(2,0,36,1) 50%, rgba(0,212,255,1) 50%);
+    
+}
+
+
+
 h1 {
     font-size: 2.6rem;
     font-weight: bold;
