@@ -11,20 +11,41 @@ body {
 * {box-sizing: border-box;}
 hr {display: none;} /* rimuove l'elemento */
 
-.toTop {
+.shortcut {
+    position: relative;
+}
+.shortcut a {
     background-color: rgba(118, 118, 118, 0.405);
-    color: #333;
-    font-size: 3em;
+    color: rgba(1, 117, 190, 0.746);
+    
     width: 50px;
     height: 50px;
     text-align: center;
     padding-top: 5px;
     border-radius: 50%;
-    position: fixed;
-    bottom: 30px;
-    right: 20px;
+    
     z-index: 2;
     cursor: pointer;
+}
+
+.shortcut .toTop {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    font-size: 3em;
+}
+.social {
+    position: fixed;
+    top: 230px;
+    right: 10px;
+    font-size: 2em;
+}
+
+.calendar {
+    position: fixed;
+    top: 300px;
+    right: 10px;
+    font-size: 2em;
 }
 /* HEADER */
 header {
